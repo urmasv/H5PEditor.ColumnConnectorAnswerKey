@@ -1,0 +1,106 @@
+.h5p-column-connector-cell-connections {
+  margin-top: 0.75em;
+}
+
+.h5p-cc-cell-connection-editor {
+  max-width: 28rem;
+}
+
+.h5p-cc-cell-dropdown {
+  position: relative;
+  min-width: 0;
+}
+
+.h5p-cc-cell-dropdown-button {
+  width: 100%;
+  min-height: 2.2rem;
+  border: 1px solid #767676;
+  border-radius: 0.25rem;
+  background: #fff;
+  cursor: pointer;
+  font: inherit;
+  overflow: hidden;
+  padding: 0.35rem 2rem 0.35rem 0.5rem;
+  position: relative;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.h5p-cc-cell-dropdown-button::after {
+  content: "▾";
+  position: absolute;
+  right: 0.55rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.h5p-cc-cell-dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  max-height: 13rem;
+  overflow: auto;
+  border: 1px solid #767676;
+  border-radius: 0.25rem;
+  background: #fff;
+  box-shadow: 0 0.25rem 0.8rem rgba(0, 0, 0, 0.18);
+  margin-top: 0.2rem;
+  padding: 0.25rem;
+}
+
+.h5p-cc-cell-dropdown-open .h5p-cc-cell-dropdown-menu {
+  display: block;
+}
+
+.h5p-cc-cell-option {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem;
+  font-weight: 400;
+}
+
+.h5p-cc-cell-option:hover,
+.h5p-cc-cell-option:focus-within {
+  background: #f1f3f5;
+}
+
+.h5p-cc-cell-dropdown-empty {
+  color: #555;
+  font-style: italic;
+  padding: 0.3rem;
+}
+
+
+/* Keep the list controls for 3rd and 4th column cell lists aligned with other column lists. */
+.h5peditor .field-name-columnThree .h5peditor-list-buttons,
+.h5peditor .field-name-columnFour .h5peditor-list-buttons,
+.h5peditor .field-name-columnThree .h5peditor-list-actions,
+.h5peditor .field-name-columnFour .h5peditor-list-actions,
+.h5peditor .field-name-columnThree .h5peditor-list-controls,
+.h5peditor .field-name-columnFour .h5peditor-list-controls {
+  margin-left: 0 !important;
+  left: auto !important;
+}
+
+/* Peida kohustuslikkuse tärn eeltäidetud valikväljadel (optional lisaks "-" valiku). */
+.field-name-layoutMode .h5peditor-required::after,
+.field-name-lineStyle .h5peditor-required::after,
+.field-name-position .h5peditor-required::after,
+.field-name-size .h5peditor-required::after,
+.field-name-align .h5peditor-required::after {
+  content: "" !important;
+}
+
+/* Peida "Lisa pildi URL ja alt-tekst" alamsektsiooni pealkiri, et URL ja
+   alt-tekst paistaksid lamedalt "Lisa pilt" all (andmed jäävad imageExtra sisse). */
+.field-name-imageExtra > .title,
+.field-name-imageExtra > .h5peditor-label,
+.field-name-imageExtra > .h5peditor-label-wrapper,
+.field-name-imageExtra > .h5peditor-group > .title,
+.field-name-imageExtra > .h5peditor-group-wrapper > .title,
+.field-name-imageExtra > fieldset > legend {
+  display: none !important;
+}
