@@ -1,0 +1,19 @@
+{
+  "libraryStrings": {
+    "noNeighborCellsColumn": "There are no cells in the previous column.",
+    "noNeighborCellsRow": "There are no cells in the previous row.",
+    "noConnection": "— no connection —",
+    "connectionCount": "@count connections",
+    "cellFallback": "cell",
+    "correctToPreviousColumn": "Correct connections to the previous column",
+    "correctToPreviousRow": "Correct connections to the previous row",
+    "columnWord": "Column",
+    "rowWord": "Row",
+    "columnsWord": "Columns",
+    "rowsWord": "Rows",
+    "addColumn": "Add column",
+    "addRow": "Add row",
+    "behaviourSettings": "Behavioural settings",
+    "uploadImageButton": "Upload image"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "libraryStrings": {
+    "noNeighborCellsColumn": "Eelmises tulbas pole lahtreid.",
+    "noNeighborCellsRow": "Eelmises reas pole lahtreid.",
+    "noConnection": "— ühendus puudub —",
+    "connectionCount": "@count ühendust",
+    "cellFallback": "lahter",
+    "correctToPreviousColumn": "Õiged ühendused eelmise tulbaga",
+    "correctToPreviousRow": "Õiged ühendused eelmise reaga",
+    "columnWord": "Tulp",
+    "rowWord": "Rida",
+    "columnsWord": "Tulbad",
+    "rowsWord": "Read",
+    "addColumn": "Lisa tulp",
+    "addRow": "Lisa rida",
+    "behaviourSettings": "Käitumisseaded",
+    "uploadImageButton": "Lae pilt üles"
+  }
+}
